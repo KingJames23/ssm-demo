@@ -1,1 +1,5 @@
-com\kingjames\web\ssm\AController.class
+com\kingjames\web\ssm\service\CrudService.class
+com\kingjames\web\ssm\service\CrudServiceImp.class
+com\kingjames\web\ssm\po\User.class
+com\kingjames\web\ssm\dao\UserDao.class
+com\kingjames\web\ssm\controller\CrudController.class

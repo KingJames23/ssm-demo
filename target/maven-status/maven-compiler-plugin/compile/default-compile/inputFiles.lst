@@ -1,1 +1,5 @@
-D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\AController.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\controller\CrudController.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\dao\UserDao.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\service\CrudService.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\service\CrudServiceImp.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\po\User.java

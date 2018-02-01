@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "classpath:dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="defaultStatementTimeout" value="10"/>
+    </settings>
+
+    <!-- 使用po对象当做对象的别名 -->
+    <typeAliases>
+        <package name="com.kingjames.web.ssm.po"/>
+    </typeAliases>
+
+</configuration>
