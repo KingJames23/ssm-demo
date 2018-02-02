@@ -9,5 +9,29 @@
         ]]>
     </select>
 
+    <insert id="addUser" parameterType="map" useGeneratedKeys="true" keyProperty="id" >
+        <![CDATA[
+            INSERT INTO USER_INFO (name,age,company,mobile,province,city,district,zipCode)
+            VALUES (#{name},#{age},#{company},#{mobile},#{province},#{city},#{district},#{zipCode});
+        ]]>
+    </insert>
+
+    <update id="updateUser" parameterType="map">
+        <![CDATA[
+			update
+				USER_INFO
+			set
+			    company=#{company}
+			where
+				id=#{id};
+		]]>
+    </update>
+
+    <delete id="deleteUser" parameterType="map">
+        <![CDATA[
+			DELETE FROM USER_INFO WHERE id=#{id};
+		]]>
+    </delete>
+
 
 </mapper>

@@ -9,5 +9,12 @@
         ]]>
     </select>
 
+    <insert id="addUser" parameterType="map" useGeneratedKeys="true" keyProperty="id" >
+        <![CDATA[
+            INSERT INTO USER_INFO (name,age,company,mobile,province,city,district,zipCode)
+            VALUES (#{name},#{age},#{company},#{mobile},#{province},#{city},#{district},#{zipCode});
+        ]]>
+    </insert>
+
 
 </mapper>
