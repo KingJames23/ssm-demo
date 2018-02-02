@@ -1,5 +1,10 @@
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\common\ResponseCode.java
 D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\controller\CrudController.java
 D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\dao\UserDao.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\common\AjaxResult.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\common\JsonResult.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\common\FtlTemplateService.java
+D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\controller\BaseAjaxController.java
 D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\service\CrudService.java
 D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\service\CrudServiceImp.java
 D:\Workspace\Demo\ssm-demo\src\main\java\com\kingjames\web\ssm\po\User.java
