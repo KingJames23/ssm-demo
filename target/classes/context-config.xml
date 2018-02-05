@@ -28,8 +28,10 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation"
                   value="classpath:mybatis-config.xml"/>
+        <!--property name="mapperLocations"
+                  value="classpath:com/kingjames/web/ssm/dao/*.xml" /-->
         <property name="mapperLocations"
-                  value="classpath:com/kingjames/web/ssm/dao/*.xml" />
+                  value="classpath:mapper/*.xml" />
     </bean>
 
     <!-- 配置SqlSessionTemplate -->

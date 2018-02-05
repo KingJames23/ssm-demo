@@ -19,6 +19,11 @@ public class CrudController extends BaseAjaxController {
     @Autowired
     private UserDao userDao;
 
+    /**
+     * 查
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/get")
     public AjaxResult selectUserById(@RequestParam int id) {
         try {
@@ -30,11 +35,17 @@ public class CrudController extends BaseAjaxController {
 
             return initSuccessResult(user);
         } catch (Exception e) {
+            e.printStackTrace();
             return initFailureResult("Exception");
         }
 
     }
 
+    /**
+     * 删
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/delete")
     public AjaxResult deleteUserById(@RequestParam int id) {
         try {
@@ -49,6 +60,12 @@ public class CrudController extends BaseAjaxController {
         }
     }
 
+    /**
+     * 改
+     * @param id
+     * @param company
+     * @return
+     */
     @RequestMapping(value = "/update")
     public AjaxResult updateUser(@RequestParam int id,
         @RequestParam String company) {
@@ -66,7 +83,7 @@ public class CrudController extends BaseAjaxController {
     }
 
     /**
-     * todo
+     * 增
      * 
      * @param user
      * @return
