@@ -9,12 +9,6 @@ package com.kingjames.web.ssm.common;
 import java.util.LinkedHashMap;
 import org.springframework.util.Assert;
 
-/**
- * json返回结果封装
- * 
- * @author 王国云(wangguoyun@corp.netease.com)
- * @Date 2011-7-13
- */
 public class JsonResult extends LinkedHashMap<String, Object> {
 
     /**

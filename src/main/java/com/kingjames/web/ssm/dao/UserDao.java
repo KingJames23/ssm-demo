@@ -1,9 +1,4 @@
-/**
- * @(#)UserDao.java, 2018/2/1.
- * <p/>
- * Copyright 2018 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
+
 package com.kingjames.web.ssm.dao;
 
 import java.util.HashMap;
@@ -14,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.kingjames.web.ssm.po.User;
 
 /**
- * @author 徐晓俊(xuxiaojun02 @ corp.netease.com)
+ * @author 徐晓俊
  */
 @Repository
 public class UserDao {

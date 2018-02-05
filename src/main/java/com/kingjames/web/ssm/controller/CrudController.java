@@ -1,9 +1,3 @@
-/**
- * @(#)CrudController.java, 2018/2/1.
- * <p/>
- * Copyright 2018 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
 package com.kingjames.web.ssm.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +10,7 @@ import com.kingjames.web.ssm.dao.UserDao;
 import com.kingjames.web.ssm.po.User;
 
 /**
- * @author 徐晓俊(xuxiaojun02 @ corp.netease.com)
+ * @author 徐晓俊
  */
 
 @Controller
@@ -88,6 +82,7 @@ public class CrudController extends BaseAjaxController {
                 return initFailureResult("Insert fail!");
             }
         } catch (Exception e) {
+            e.printStackTrace();
             return initFailureResult("Exception");
         }
     }

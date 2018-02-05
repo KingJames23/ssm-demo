@@ -1,9 +1,4 @@
-/**
- * @(#)FtlTemplateService.java, 2015-12-15.
- *
- * Copyright 2015 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
+
 package com.kingjames.web.ssm.common;
 
 import freemarker.template.Template;

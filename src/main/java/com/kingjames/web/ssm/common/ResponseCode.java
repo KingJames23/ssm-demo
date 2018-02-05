@@ -1,9 +1,4 @@
-/**
- * @(#)ResponseCode.java, 2015年8月20日.
- *
- * Copyright 2015 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
+
 package com.kingjames.web.ssm.common;
 
 /**
