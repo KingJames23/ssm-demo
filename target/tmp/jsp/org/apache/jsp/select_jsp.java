@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class select_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -46,10 +46,12 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<h2>Welcome to my SSM demo project!</h2>\r\n");
       out.write("</body>\r\n");
       out.write("\r\n");
-      out.write("<form action=\"http://127.0.0.1:8080/crud/get\" method=\"get\">\r\n");
-      out.write("    <p>Select: <input type=\"text\" name=\"id\" /></p>\r\n");
-      out.write("    <input type=\"submit\" value=\"Submit\" />\r\n");
+      out.write("<form action=\"http://127.0.0.1:8080/crud/get\" method=\"get\" enctype=\"application/x-www-form-urlencoded\">\r\n");
+      out.write("    <h3>Select Demo</h3>\r\n");
+      out.write("    <h3>id= <input type=\"text\" name=\"id\"/></h3>\r\n");
+      out.write("    <h3><input type=\"submit\" value=\"Submit\"/></h3>\r\n");
       out.write("</form>\r\n");
+      out.write("\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
